@@ -69,7 +69,6 @@ void addMiddle(string judul, string pengarang, int tB, int posisi){
     newNode->judul = judul;
     newNode->pengarang = pengarang;
     newNode->tahunTerbit = tB;
-
     // tranversing
     cur = head;
     int nomor = 1;

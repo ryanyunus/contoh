@@ -15,14 +15,14 @@ struct Mahasiswa{
     }alamat; 
 };
 void cetakdataMhs(Mahasiswa data){
-    cout << "NPM Mahasiswa 1 : " << data.npm << endl;
-	cout << "Nama Mahasiswa 1 : " << data.nama << endl;
-	cout << "Jurusan Mahasiswa 1 : " << data.jurusan << endl;
-	cout << "Umur Mahasiswa 1 : " << data.umur << endl;
-	cout << "Hobi1 Mahasiswaa 1 : " << data.hobi[0] << endl;
-	cout << "Hobi2 Mahasiswaa 1 : " << data.hobi[1] << endl;
-	cout << "Hobi3 Mahasiswaa 1 : " << data.hobi[2] << endl << endl;
-	cout << "Hobi3 Mahasiswaa 1 : " << data.alamat.jalan << endl << endl;
+    cout << "NPM Mahasiswa  : " << data.npm << endl;
+	cout << "Nama Mahasiswa : " << data.nama << endl;
+	cout << "Jurusan Mahasiswa  : " << data.jurusan << endl;
+	cout << "Umur Mahasiswa  : " << data.umur << endl;
+	cout << "Hobi1 Mahasiswaa  : " << data.hobi[0] << endl;
+	cout << "Hobi2 Mahasiswaa  : " << data.hobi[1] << endl;
+	cout << "Hobi3 Mahasiswaa  : " << data.hobi[2] << endl << endl;
+	cout << "Hobi3 Mahasiswaa  : " << data.alamat.jalan << endl << endl;
 }
 
 int main()
@@ -48,7 +48,7 @@ int main()
     cout << "\n\n" << endl;
 
     mhs[1].npm = "202111002";
-	mhs[1].nama = "Agus Purniawan";
+	mhs[1].nama = "Fatian";
 	mhs[1].jurusan = "Informatika";
 	mhs[1].umur = 29;
 	mhs[1].hobi[0] = "Mancing";
@@ -59,6 +59,8 @@ int main()
     mhs[1].kps.tahunBerdiri = 2000;
     mhs[1].kps = kampusUTM;
     mhs[1].alamat.jalan = "Jl.Mawar no .18";
+
+    cetakdataMhs(mhs [1]);
 	
 	
 	// 	//cara 2
